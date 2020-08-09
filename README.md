@@ -18,7 +18,7 @@
 10. [LRU Cache](https://github.com/VLVentura/DataStructures#lru-cache)
 11. [Fenwick Tree](https://github.com/VLVentura/DataStructures#fenwick-tree)
 12. [Union-find/Disjoint-set](https://github.com/VLVentura/DataStructures#union-finddisjoint-set)
-13. [Graph Theory](https://github.com/VLVentura/DataStructures/GraphTeory#graph-theory)
+13. [Graph Theory](https://github.com/VLVentura/DataStructures/tree/master/GraphTheory#graph-theory)
 14. Segment Tree
 
 ### Linked List
