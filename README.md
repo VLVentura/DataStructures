@@ -134,7 +134,7 @@
 * [ ] C 
 
 
-[*_Back to index_*](https://github.com/VLVentura/tree/master/Algorithms_and_DataStructures/DataStructures#index)
+[*_Back to index_*](https://github.com/VLVentura/DataStructures#index)
 
 
 ### LRU Cache
@@ -147,7 +147,7 @@
 * [ ] C 
 
 
-[*_Back to index_*](https://github.com/VLVentura/tree/master/Algorithms_and_DataStructures/DataStructures#index)
+[*_Back to index_*](https://github.com/VLVentura/DataStructures#index)
 
 
 ### Fenwick Tree
@@ -160,7 +160,7 @@
 * [ ] C 
 
 
-[*_Back to index_*](https://github.com/VLVentura/tree/master/Algorithms_and_DataStructures/DataStructures#index)
+[*_Back to index_*](https://github.com/VLVentura/DataStructures#index)
 
 
 ### Union-find/Disjoint-set
@@ -173,4 +173,4 @@
 * [ ] C 
 
 
-[*_Back to index_*](https://github.com/VLVentura/tree/master/Algorithms_and_DataStructures/DataStructures#index)
+[*_Back to index_*](https://github.com/VLVentura/DataStructures#index)
