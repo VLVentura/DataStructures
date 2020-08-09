@@ -62,7 +62,7 @@
 
 <img src="../img/Cycle.png" widht="400">
 
-* [x] [Java](https://github.com/VLVentura/DataStructures/tree/master/GraphTheory/GraphTheory/CycleDetection/java)
+* [x] [Java](https://github.com/VLVentura/DataStructures/tree/master/GraphTheory/CycleDetection/java)
 * [ ] Python 
 * [ ] C++
 * [ ] C
@@ -128,7 +128,7 @@
 <img src="../img/Strongly.png" widht="400" height="300">
 
 1. Kosaraju Algorithm
-	* [x] [Java](https://github.com/VLVentura/DataStructures/tree/master/GraphTheory/StronglyConnectedComponents/KosajaruAlgorithm/java)
+	* [x] [Java](https://github.com/VLVentura/DataStructures/tree/master/GraphTheory/StronglyConnectedComponents/KosarajuAlgorithm/java)
 	* [ ] Python 
 	* [ ] C++
 	* [ ] C
