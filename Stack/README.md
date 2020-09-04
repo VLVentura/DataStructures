@@ -1,0 +1,3 @@
+# Stack
+
+- Implemented functions
