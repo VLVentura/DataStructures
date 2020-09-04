@@ -16,7 +16,6 @@ LinkedList<T>::LinkedList(T data){
     delete newNode;
 }
 
-
 template <typename T>
 LinkedList<T>::~LinkedList(){
 }

@@ -1,3 +1,3 @@
 # Stack
 
-- Implemented functions
+## Implemented functions

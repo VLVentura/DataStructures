@@ -21,7 +21,7 @@
 13. [Graph Theory](https://github.com/VLVentura/DataStructures/tree/master/GraphTheory#graph-theory)
 14. Segment Tree
 
-### Linked List
+### [Linked List](https://github.com/VLVentura/DataStructures/tree/readmes/LinkedList#linked-lists)
 
 <img src="img/LinkedList.png" widht="400">
 

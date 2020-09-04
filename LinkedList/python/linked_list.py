@@ -10,20 +10,16 @@ class LinkedList:
         if data != None:
             self.insert(data)
     
-
     def __len__(self):
         return self._size_of_list
-
 
     @property
     def root(self):
         return self._root
     
-
     @root.setter
     def root(self, node):
         self._root = node
-
 
     def insert(self, data):
         self._size_of_list += 1
@@ -31,7 +27,6 @@ class LinkedList:
         new_node = Node(data)
         new_node.next_node = self.root
         self.root = new_node
-
 
     def remove(self, data):
         if self.root.data == None:
@@ -43,7 +38,6 @@ class LinkedList:
         else:
             LinkedList.__remove(data, self.root, self.root.next_node)
 
-
     @staticmethod
     def __remove(data, previous_node, actual_node):
         if actual_node.data == None:
@@ -53,7 +47,6 @@ class LinkedList:
         else:
             LinkedList.__remove(data, actual_node, actual_node.next_node)
 
-
     def traverse_list(self):
         it = self.root
 
@@ -62,12 +55,10 @@ class LinkedList:
             it = it.next_node
         print(it.next_node, end = '')
 
-
     def empty(self):
         if self.root.data == None:
             return True
         return False
-
 
     def middle(self):
         faster = self.root
@@ -78,7 +69,6 @@ class LinkedList:
             slower = slower.next_node
 
         return slower.data
-
 
     def reverse(self):
         previous_node = Node()
