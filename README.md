@@ -55,7 +55,7 @@ Java | -java
 C++ | -c++
 C | -c
 
-</td>
+</td></tr> </table>
 
 ## Index
 
