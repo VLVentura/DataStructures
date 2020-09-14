@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 from stack import Stack
 
 stack = Stack()

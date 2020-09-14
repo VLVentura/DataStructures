@@ -9,12 +9,21 @@ class Run:
         self.lang, self.langCommand = self.wichLanguage(lang)
         
         self.path = self.algo + self.lang
-        self.command = self.langCommand + self.algoCommand
+        self.command, self.exec = self.instructions(self.lang)
     
     def __call__(self):
         os.chdir(self.path)
         os.system(self.command)
-        
+        os.system(self.exec)
+
+    def instructions(self, lang):
+        if lang in ['cpp', 'java']:
+            return (self.langCommand + self.algoCommand, './{}'.format(self.algoCommand))
+        elif lang in ['python', 'js']:
+            return ('chmod 755 main.{}'.format(self.langCommand), './main.{}'.format(self.langCommand))
+        else:
+            print('Data structure not implemented in this language')
+
     def wichAlgorithm(self, algo):
         if algo == '-list':
             return ('./LinkedList/', 'list')
@@ -27,15 +36,15 @@ class Run:
 
     def wichLanguage(self, lang):
         if lang == '-java':
-            return 'java/'
+            return 'java'
         elif lang == '-c++':
-            return ('cpp/', 'make ')
+            return ('cpp', 'make ')
         elif lang == '-python':
-            return 'python/'
+            return ('python', 'py')
         elif lang == '-c':
-            return ('c/', 'make ')
+            return ('c', 'make ')
         elif lang == '-js':
-            return 'js/'
+            return ('js', 'js')
         else:
             print('Data structure not implemented in this language')
 

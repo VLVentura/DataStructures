@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.8
 from linked_list import LinkedList
 
 llist = LinkedList(7)
