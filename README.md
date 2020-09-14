@@ -55,6 +55,8 @@ Java | -java
 C++ | -c++
 C | -c
 
+</td>
+
 ## Index
 
 1. [Linked Lists](https://github.com/VLVentura/DataStructures#linked-list)
