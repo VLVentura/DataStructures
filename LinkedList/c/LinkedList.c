@@ -8,7 +8,7 @@ Node* createList(Node *root){
     return NULL;
 }
 
-Node* insert(Node *root, int data){
+Node* insertAtBegin(Node *root, int data){
     Node *newNode = (Node *) malloc(sizeof(Node));
     newNode->data = data;
 
@@ -21,6 +21,25 @@ Node* insert(Node *root, int data){
     }
 
     root = newNode;
+    return root;
+}
+
+Node* insertAtEnd(Node *root, int data) {
+    Node *newNode = (Node *) malloc(sizeof(Node));
+    newNode->data = data;
+
+    ++sizeOfList;
+    if(root == NULL) {
+        root = newNode;
+    }
+    else {
+        Node *temp = root;
+        while(temp->nextNode != NULL) {
+            temp = temp->nextNode;
+        }
+        temp->nextNode = newNode;
+    }
+
     return root;
 }
 
@@ -60,20 +79,20 @@ Node* removeNode(Node *root, int data){
     return root;
 }
 
-void traverseList(Node *root){
+void traverse(Node *root){
     if(root == NULL){
         printf("NULL\n");
         return;
     }
     printf("%d -> ", root->data);
-    traverseList(root->nextNode);
+    traverse(root->nextNode);
 }
 
-int sizeList(){
+int size(){
     return sizeOfList;
 }
 
-int emptyList(){
+int isEmpty(){
     return sizeOfList == 0;
 }
 

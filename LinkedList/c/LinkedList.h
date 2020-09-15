@@ -9,11 +9,12 @@ struct node{
 typedef struct node Node;
 
 Node* createList();
-Node* insert(Node *root, int data);
+Node* insertAtBegin(Node *root, int data);
+Node* insertAtEnd(Node *root, int data);
 Node* removeNode(Node *root, int data);
-void traverseList(Node *root);
-int sizeList();
-int emptyList();
+void traverse(Node *root);
+int size();
+int isEmpty();
 
 int middle(Node *root);
 Node* reverse(Node *root);

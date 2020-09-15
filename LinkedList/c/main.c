@@ -7,27 +7,27 @@ int main(){
     
     Node *root = createList();
 
-    root = insert(root, 1);
-    root = insert(root, 2);
-    root = insert(root, 2);
-    root = insert(root, 3);
-    root = insert(root, 4);
+    root = insertAtEnd(root, 1);
+    root = insertAtEnd(root, 2);
+    root = insertAtEnd(root, 2);
+    root = insertAtEnd(root, 3);
+    root = insertAtEnd(root, 4);
 
     root = removeNode(root, 2);
     
     root = reverse(root);
-    traverseList(root);
+    traverse(root);
     root = reverse(root);
-    traverseList(root);
+    traverse(root);
 
     root = removeNode(root, 1);
     root = removeNode(root, 4);
 
-    traverseList(root);
+    traverse(root);
 
     printf("middle: %d\n", middle(root));
-    printf("%d\n", emptyList());
-    printf("%d\n", sizeList());
+    printf("%d\n", isEmpty());
+    printf("%d\n", size());
 
     return 0;
 }
