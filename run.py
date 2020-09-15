@@ -17,7 +17,7 @@ class Run:
         os.system(self.exec)
 
     def instructions(self, lang):
-        if lang in ['cpp', 'java']:
+        if lang in ['c', 'cpp', 'java']:
             return (self.langCommand + self.algoCommand, './{}'.format(self.algoCommand))
         elif lang in ['python', 'js']:
             return ('chmod 755 main.{}'.format(self.langCommand), './main.{}'.format(self.langCommand))
