@@ -17,10 +17,12 @@ class Run:
         os.system(self.exec)
 
     def instructions(self, lang):
-        if lang in ['c', 'cpp', 'java']:
+        if lang in ['c', 'cpp']:
             return (self.langCommand + self.algoCommand, './{}'.format(self.algoCommand))
         elif lang in ['python', 'js']:
             return ('chmod 755 main.{}'.format(self.langCommand), './main.{}'.format(self.langCommand))
+        elif lang == 'java':
+            return ('javac *.java', 'java Program')
         else:
             print('Data structure not implemented in this language')
 
@@ -36,7 +38,7 @@ class Run:
 
     def wichLanguage(self, lang):
         if lang == '-java':
-            return 'java'
+            return ('java', 'javac')
         elif lang == '-c++':
             return ('cpp', 'make ')
         elif lang == '-python':

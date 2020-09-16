@@ -1,5 +1,3 @@
-package LinkedList;
-
 public class LinkedList<T extends Comparable<T>> implements List<T> {
 
 	private Node<T> root;

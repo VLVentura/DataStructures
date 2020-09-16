@@ -1,8 +1,3 @@
--- Copy to the main class ans run --
-
-import LinkedList.LinkedList;
-import LinkedList.List;
-
 public class Program {
 	public static void main(String[] args) {
 		List<Integer> list = new LinkedList<Integer>();
@@ -24,5 +19,6 @@ public class Program {
         System.out.println();
         System.out.println(list.size());
         list.traverseList();
+        System.out.println();
 	}
 }
