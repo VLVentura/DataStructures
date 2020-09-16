@@ -1,61 +1,12 @@
 # Data Structures
 
+1. [Index](https://github.com/VLVentura/DataStructures#index)
+2. [How to Run [Linux]](https://github.com/VLVentura/DataStructures#how-to-run-linux)
+
 ## To-Do
 
 * [ ] Fix the java code with some algorithms
 * [ ] Implement the others algorithms in the run.py
-
-## How to Run [Linux]
-
-Of course you can do it by yourself, open your terminal and write all the commands as normal. But, i made a simple script that can help you in just focus on the data structure and algorithm part! 
-
-1. Make sure the **run.py** had permissions to execute. To do that you can open the terminal at the DataStructures/ folder and run the command
-
-```
-chmod 755 run.py
-```
-
-You can understand what this command mean by acessing [this link](https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/)
-
-2. Now you can execute the command passing the data structure you want to execute and the language you want to teste
-
-```
-./run.py -<data structure> -<language>
-```
-
-Examples:
-
-```
-./run.py -list -c++
-```
-
-```
-./run.py -queue -python
-```
-
-You can check the table below to see all the commands
-
-<table>
-<tr><th>Data Structures </th><th>Languages</th></tr>
-<tr><td>
-
-Data Structures | Command  
------------ | ------------- 
-Linked List | -list
-Stack | -stack
-Queue | -queue
-Binary Search Tree | -bst
-
-</td><td>
-
-Languages | Command  
------------ | ------------- 
-Python | -python
-Java | -java
-C++ | -c++
-C | -c
-
-</td></tr> </table>
 
 ## Index
 
@@ -227,3 +178,56 @@ C | -c
 
 
 [*_Back to index_*](https://github.com/VLVentura/DataStructures#index)
+
+## How to Run [Linux]
+
+Of course you can do it by yourself, open your terminal and write all the commands as normal. But, i made a simple script that can help you in just focus on the data structure and algorithm part! 
+
+1. Make sure the **run.py** had permissions to execute. To do that you can open the terminal at the DataStructures/ folder and run the command
+
+```
+chmod 755 run.py
+```
+
+You can understand what this command mean by acessing [this link](https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/)
+
+2. Now you can execute the command passing the data structure you want to execute and the language you want to teste
+
+```
+./run.py -<data structure> -<language>
+```
+
+Examples:
+
+```
+./run.py -list -c++
+```
+
+```
+./run.py -queue -python
+```
+
+You can check the table below to see all the commands
+
+<table>
+<tr><th>Data Structures </th><th>Languages</th></tr>
+<tr><td>
+
+Data Structures | Command  
+----------- | ------------- 
+Linked List | -list
+Stack | -stack
+Queue | -queue
+Binary Search Tree | -bst
+
+</td><td>
+
+Languages | Command  
+----------- | ------------- 
+Python | -python
+Java | -java
+C++ | -c++
+C | -c
+
+</td></tr> </table>
+
