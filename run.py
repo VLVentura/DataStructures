@@ -35,6 +35,22 @@ class Run:
             return ('./Queue/', 'queue')
         elif algo == '-bst':
             return ('./BinarySearchTrees/', 'bst')
+        elif algo == '-avl':
+            return ('./AVLTrees/', 'avl')
+        elif algo == '-rbt':
+            return ('./RedBlackTrees/', 'rbt')
+        elif algo == '-splay':
+            return ('./SplayTrees/', 'splay')
+        elif algo == '-pqueue':
+            return ('./PriorityQueue/', 'pqueue')
+        elif algo == '-hasht':
+            return ('./HashTable/', 'hasht')
+        elif algo == '-lru':
+            return ('./LRUCache/', 'lru')
+        elif algo == '-fenwick':
+            return ('./FenwickTrees/', 'fenwick')
+        elif algo == '-disjointset':
+            return ('./UnionFindDisjointSet/', 'disjointset')
 
     def wichLanguage(self, lang):
         if lang == '-java':

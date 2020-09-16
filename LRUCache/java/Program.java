@@ -1,5 +1,3 @@
-import LRU.LRUCache;
-
 public class Program {
 	public static void main(String[] args) {
 		LRUCache<String, Integer> lru = new LRUCache<>();

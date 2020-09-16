@@ -1,5 +1,3 @@
-package HashTable;
-
 import java.util.Objects;
 
 public class HashTable<K, V> {

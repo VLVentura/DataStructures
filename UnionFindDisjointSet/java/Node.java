@@ -1,5 +1,3 @@
-package Kruskal;
-
 public class Node {
 
 	private int id;

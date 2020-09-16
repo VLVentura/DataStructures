@@ -1,5 +1,3 @@
-package SplayTree;
-
 public class SplayTree<T extends Comparable<T>> implements Tree<T> {
 
 	private int size;

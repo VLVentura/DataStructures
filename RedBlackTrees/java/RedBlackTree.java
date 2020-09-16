@@ -1,5 +1,3 @@
-package RedBlackTree;
-
 public class RedBlackTree<T extends Comparable<T>> implements Tree<T> {
 
 	private Node<T> root;

@@ -1,5 +1,3 @@
-package AVLTree;
-
 public class Node<T extends Comparable<T>> {
 	T data;
 	private Node<T> leftNode;

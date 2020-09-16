@@ -1,5 +1,3 @@
-package Kruskal;
-
 public class Edge implements Comparable<Edge> {
 
 	private double weight;

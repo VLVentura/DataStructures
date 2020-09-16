@@ -5,8 +5,8 @@
 
 ## To-Do
 
-* [ ] Fix the java code with some algorithms
-* [ ] Implement the others algorithms in the run.py
+* [ ] Fix the java code with some algorithms, they have some bugs
+* [ ] Implement the graph algorithms in the run.py
 
 ## Index
 
@@ -219,6 +219,14 @@ Linked List | -list
 Stack | -stack
 Queue | -queue
 Binary Search Tree | -bst
+AVL Tree | -avl
+Red Black Tree | -rbt
+Splay Tree | -splay
+Priority Queue | -pqueue
+Hash Table | -hasht
+LRU Cache | -lru
+Fenwick Tree | -fenwick
+Union-Find Disjoint-Set | -disjointset
 
 </td><td>
 

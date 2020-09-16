@@ -1,5 +1,3 @@
-package AVLTree;
-
 public class AvlTree<T extends Comparable<T>> implements Tree<T> {
 
 	private Node<T> root;

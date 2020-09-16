@@ -1,5 +1,3 @@
-package FenwickTree;
-
 public class FenwickTree {
 	private int[] fenwickTree;
 

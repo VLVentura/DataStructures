@@ -1,5 +1,3 @@
-package LRU;
-
 public class Node<K, V> {
 
 	private K id;

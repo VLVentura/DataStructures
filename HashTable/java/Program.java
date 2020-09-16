@@ -1,5 +1,3 @@
-import HashTable.HashTable;
-
 public class Program {
 	public static void main(String[] args) {
 		HashTable<String, Integer> hashTable = new HashTable<String, Integer>();

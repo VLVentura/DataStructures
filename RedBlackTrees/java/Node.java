@@ -1,5 +1,3 @@
-package RedBlackTree;
-
 public class Node<T extends Comparable<T>> {
 	private T data;
 	private Color color;

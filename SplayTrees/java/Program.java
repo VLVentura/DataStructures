@@ -1,6 +1,3 @@
-import SplayTree.SplayTree;
-import SplayTree.Tree;
-
 public class Program {
 	public static void main(String[] args) {
 		Tree<Integer> spltree = new SplayTree<Integer>();

@@ -1,5 +1,3 @@
-package LRU;
-
 public class DoublyLinkedList<K, V> {
 
 	private Node<K, V> headNode;

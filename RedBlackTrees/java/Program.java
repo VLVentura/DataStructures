@@ -1,6 +1,3 @@
-import RedBlackTree.RedBlackTree;
-import RedBlackTree.Tree;
-
 public class Program {
 	public static void main(String[] args) {
 
