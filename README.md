@@ -2,7 +2,7 @@
 
 ## To-Do
 
-* [ ] Fixing the java code
+* [ ] Fix the java code with some algorithms
 * [ ] Implement the others algorithms in the run.py
 
 ## How to Run [Linux]
