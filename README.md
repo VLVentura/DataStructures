@@ -1,8 +1,61 @@
 # Data Structures
 
-**To-do**
-* [ ] How to run will be in a simple readme in each data structure for the specific language
-* [ ] Fixed some issues with the java code to make a good tutorial on compile and execution process
+## To-Do
+
+* [ ] Fixing the java code
+* [ ] Implement the others algorithms in the run.py
+
+## How to Run [Linux]
+
+Of course you can do it by yourself, open your terminal and write all the commands as normal. But, i made a simple script that can help you in just focus on the data structure and algorithm part! 
+
+1. Make sure the **run.py** had permissions to execute. To do that you can open the terminal at the DataStructures/ folder and run the command
+
+```
+chmod 755 run.py
+```
+
+You can understand what this command mean by acessing [this link](https://www.howtogeek.com/437958/how-to-use-the-chmod-command-on-linux/)
+
+2. Now you can execute the command passing the data structure you want to execute and the language you want to teste
+
+```
+./run.py -<data structure> -<language>
+```
+
+Examples:
+
+```
+./run.py -list -c++
+```
+
+```
+./run.py -queue -python
+```
+
+You can check the table below to see all the commands
+
+<table>
+<tr><th>Data Structures </th><th>Languages</th></tr>
+<tr><td>
+
+Data Structures | Command  
+----------- | ------------- 
+Linked List | -list
+Stack | -stack
+Queue | -queue
+Binary Search Tree | -bst
+
+</td><td>
+
+Languages | Command  
+----------- | ------------- 
+Python | -python
+Java | -java
+C++ | -c++
+C | -c
+
+</td></tr> </table>
 
 ## Index
 

@@ -1,7 +1,3 @@
- package BinarySearchTree;
-
-import java.util.List;
-
 public interface Tree<T extends Comparable<T>> {
 	public Node<T> getRoot();
 	public void traversal();
